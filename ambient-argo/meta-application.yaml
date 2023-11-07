@@ -10,11 +10,11 @@ spec:
     namespace: argocd
     server: ''
   sources:
-  - path: istio
-    repoURL: '{repo-placeholder}'
+  - path: ambient-argo/istio
+    repoURL: 'https://github.com/ehlerst/argo-lab.git'
     targetRevision: HEAD
-  - path: application
-    repoURL: '{repo-placeholder}'
+  - path: ambient-argo/application
+    repoURL: 'https://github.com/ehlerst/argo-lab.git'
     targetRevision: HEAD
     directory:
       include: application.yaml

@@ -11,7 +11,7 @@ spec:
     namespace: ambient
   source:
     path: application
-    repoURL: '{repo-placeholder}'
+    repoURL: 'https://github.com/ehlerst/argo-lab.git'
     targetRevision: HEAD
     directory:
       exclude: application.yaml
